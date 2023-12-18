@@ -54,7 +54,6 @@ const BookingForm = () => {
   };
 
   const onSubmitForm = (evt) => {
-    console.log('formStatus', bookingContext.formStatus);
     evt.preventDefault();
     const isValidate = evt.currentTarget.checkValidity();
     if (isValidate) {
@@ -79,7 +78,12 @@ const BookingForm = () => {
 
   return (
     <Container>
-      <Row className="my-5">
+      <Row className="mt-5">
+        <Col md={{ span: 4, offset: 5 }}>
+          <h2>Pod Booking</h2>
+        </Col>
+      </Row>
+      <Row className="mt-2 mb-5">
         <Col md={{ span: 6, offset: 3 }}>
           <Form noValidate onSubmit={onSubmitForm}>
             <Form.Group
