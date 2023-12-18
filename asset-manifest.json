@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/library-booking-form/static/css/main.cfc3b186.css",
-    "main.js": "/library-booking-form/static/js/main.ce9ffa3c.js",
+    "main.js": "/library-booking-form/static/js/main.b72209fe.js",
     "static/js/787.ef256463.chunk.js": "/library-booking-form/static/js/787.ef256463.chunk.js",
     "index.html": "/library-booking-form/index.html",
     "main.cfc3b186.css.map": "/library-booking-form/static/css/main.cfc3b186.css.map",
-    "main.ce9ffa3c.js.map": "/library-booking-form/static/js/main.ce9ffa3c.js.map",
+    "main.b72209fe.js.map": "/library-booking-form/static/js/main.b72209fe.js.map",
     "787.ef256463.chunk.js.map": "/library-booking-form/static/js/787.ef256463.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfc3b186.css",
-    "static/js/main.ce9ffa3c.js"
+    "static/js/main.b72209fe.js"
   ]
 }
