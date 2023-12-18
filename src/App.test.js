@@ -1,8 +1,24 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 import App from './App';
+import { BookingContext, InitialState } from './store/booking-context'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App component', () => {
+
+  const defaultVal = {
+    formStatus: { ...InitialState },
+    updateForm: jest.fn(),
+    updateAllToTouched: jest.fn(),
+    resetForm: jest.fn()
+  }
+
+  test('render "Library XYZ" as a text', () => {
+    render(
+      <BookingContext.Provider value={defaultVal}>
+        <App />
+      </BookingContext.Provider>
+    )
+
+    const libraryNameElement = screen.getByText('Library XYZ');
+    expect(libraryNameElement).toBeInTheDocument();
+  })
 });
