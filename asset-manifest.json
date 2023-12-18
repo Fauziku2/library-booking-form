@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfc3b186.css",
-    "main.js": "/static/js/main.e5651ece.js",
-    "static/js/787.ef256463.chunk.js": "/static/js/787.ef256463.chunk.js",
-    "index.html": "/index.html",
-    "main.cfc3b186.css.map": "/static/css/main.cfc3b186.css.map",
-    "main.e5651ece.js.map": "/static/js/main.e5651ece.js.map",
-    "787.ef256463.chunk.js.map": "/static/js/787.ef256463.chunk.js.map"
+    "main.css": "/library-booking-form/static/css/main.cfc3b186.css",
+    "main.js": "/library-booking-form/static/js/main.a9262423.js",
+    "static/js/787.ef256463.chunk.js": "/library-booking-form/static/js/787.ef256463.chunk.js",
+    "index.html": "/library-booking-form/index.html",
+    "main.cfc3b186.css.map": "/library-booking-form/static/css/main.cfc3b186.css.map",
+    "main.a9262423.js.map": "/library-booking-form/static/js/main.a9262423.js.map",
+    "787.ef256463.chunk.js.map": "/library-booking-form/static/js/787.ef256463.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfc3b186.css",
-    "static/js/main.e5651ece.js"
+    "static/js/main.a9262423.js"
   ]
 }
