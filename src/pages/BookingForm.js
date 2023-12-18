@@ -54,6 +54,7 @@ const BookingForm = () => {
   };
 
   const onSubmitForm = (evt) => {
+    console.log('formStatus', bookingContext.formStatus);
     evt.preventDefault();
     const isValidate = evt.currentTarget.checkValidity();
     if (isValidate) {

@@ -2,7 +2,6 @@ import { useContext } from 'react'
 import { render, screen, waitFor, act, fireEvent } from '@testing-library/react';
 import BookingContextProvider, { BookingContext, InitialState } from './booking-context';
 import userEvent from '@testing-library/user-event'
-import Form from 'react-bootstrap/Form'
 
 const TestingComponent = ({ podNum }) => {
   const {
@@ -121,11 +120,6 @@ describe('BookingContextProvider', () => {
           ...InitialState,
           form: {
             ...InitialState.form,
-            name: {
-              value: 'John',
-              isValid: true,
-              isTouched: true
-            },
             podNum: {
               value: '1',
               isValid: true,
@@ -159,11 +153,6 @@ describe('BookingContextProvider', () => {
           ...InitialState,
           form: {
             ...InitialState.form,
-            name: {
-              value: 'John',
-              isValid: true,
-              isTouched: true
-            },
             podNum: {
               value: '5',
               isValid: true,

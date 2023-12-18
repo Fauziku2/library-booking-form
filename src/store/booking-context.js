@@ -56,7 +56,7 @@ export const InitialState = {
 }
 
 const BookingContextProvider = ({children}) => {
-  const [formStatus, setFormStatus] = useState(InitialState);
+  const [formStatus, setFormStatus] = useState({...JSON.parse(JSON.stringify(InitialState))});
 
   const onUpdate = (evt) => {
     setFormStatus(prevVal => {
@@ -95,7 +95,7 @@ const BookingContextProvider = ({children}) => {
   };
 
   const resetForm = () => {
-    setFormStatus(InitialState);
+    setFormStatus({...JSON.parse(JSON.stringify(InitialState))});
   }
 
   const defaultVal = {

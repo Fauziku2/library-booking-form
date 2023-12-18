@@ -6,12 +6,12 @@ import ErrorPage from './pages/ErrorPage';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 
 const router = createBrowserRouter([
-  { path: '/', element: <BookingForm /> },
+  { path: '/library-booking-form', element: <BookingForm />, errorElement: <ErrorPage /> },
   { path: '/acknowledge', element: <Acknowledge />},
-  { path: '/*', element: <ErrorPage /> },
+  { path: '/*', element: <Navigate to='/library-booking-form' /> },
 ]);
 
 
