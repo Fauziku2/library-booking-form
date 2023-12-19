@@ -4,7 +4,7 @@ Also hosted on (https://fauziku2.github.io/library-booking-form/)
 ## Project setup
 - Run `npm install` to download all dependencies
 - Run `npm start` for a dev server
-- Navigate to `http://localhost:3000`
+- Navigate to `http://localhost:3000/library-booking-form/`
 - The app will automatically reload if you change any of the source files
 
 ### Run Unit Testing
